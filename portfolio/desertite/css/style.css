@@ -1,0 +1,198 @@
+    body {
+        font-family: 'EB Garamond', serif;
+        font-size: 18px;
+        background-image: url("../assets/backgrounds/background-dotted.png");
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: #fcf087;
+    }
+    
+    .container {
+        padding-bottom: 50px;
+        background-color: white;
+        box-shadow: 0px 20px 25px rgba(47, 55, 56, 0.6);
+    }
+    
+    .container-main {
+        padding-top: 150px;
+    }
+    
+    .container-header {
+        margin-top: 100px;
+        max-height: 500px;
+        position: relative;
+    }
+    
+    .container-header h1 {
+        position: absolute;
+        color: aliceblue;
+        text-shadow: 1px 1px #333333;
+        outline: 2px solid white;
+        outline-offset: 5px;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    
+    .wrapper {
+        padding-top: 50px;
+        margin-bottom: 50px;
+        border-top-left-radius: 500px;
+        border-bottom-right-radius: 500px;
+    }
+    
+    .fancy-text {
+        padding-right: 30px;
+        font-family: 'Marck Script', cursive;
+        font-size: 30px;
+    }
+    
+    h4 {
+        font-size: 40px;
+        font-family: 'Marck Script', cursive;
+        border-bottom: 1px solid #3399cc;
+    }
+    
+    nav li .active {
+        padding-bottom: 0;
+        font-weight: 500;
+        border-bottom: 3px solid #3399cc;
+    }
+    
+    .carousel {
+        position: relative;
+    }
+    
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-shadow: 2px 2px #333333;
+        transform: translate(-50%, -50%);
+    }
+    
+    .carousel-caption h2 {
+        font-family: 'Marck Script', cursive;
+        font-size: 70px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .carousel-caption p {
+        font-size: 25px;
+        text-shadow: 1px 1px #333333;
+    }
+    
+    .header-photo {
+        margin-top: -100px;
+        border-radius: 50%;
+        box-shadow: 0px 20px 25px rgba(47, 55, 56, 0.6);
+    }
+    
+    .img-placeholder {
+        margin-bottom: 50px;
+        width: 400px;
+        margin: 50px auto;
+        display: block;
+    }
+    
+    .img-placeholder:hover {
+        opacity: 0.8;
+    }
+    /* Tricks Section*/
+    
+    iframe {
+        margin-top: 10%;
+    }
+    
+    .container-tricks {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    /*Navigation*/
+    
+    .navbar {
+        background-color: red;
+        box-shadow: 0 5px 5px rgba(47, 55, 56, 0.2);
+    }
+    
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link:hover::after {
+        content: '';
+        position: absolute;
+        background: #3399cc;
+        width: 5px;
+        height: 5px;
+        top: 5px;
+        left: 15px;
+        transform: translate(-50%, -50%);
+    }
+    /*Footer*/
+    
+    .container-footer {
+        text-align: center;
+        margin-bottom: 50px;
+        background-color: white;
+    }
+    /*Recepie Pages Styles*/
+    
+    .container-recepie {
+        margin-top: 100px;
+    }
+    
+    #shopping-list li {
+        list-style: none;
+    }
+    
+    #shopping-list li:before {
+        content: '';
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        background-image: url("../assets/icons/li-bullets.svg");
+        margin-left: 15px;
+    }
+    
+    #shopping-list p {
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+    
+    .recepie-title {
+        margin-bottom: 20%;
+    }
+    
+    #shopping-list {
+        border-top-left-radius: 500px;
+        border-bottom-right-radius: 500px;
+        max-width: 300px;
+        margin-left: 20%;
+    }
+    
+    .recepie-img {
+        margin-top: -50px;
+        margin-bottom: 50px;
+        border-radius: 50%;
+        box-shadow: 0px 20px 25px rgba(47, 55, 56, 0.6);
+    }
+    
+    h5 {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    
+    h6 {
+        font-size: 20px;
+    }
+    
+    .recepie-min {
+        margin-left: -50px;
+    }
+    
+    @media screen and (max-width: 990px) {
+        .recepie-min {
+            margin-left: 10%;
+        }
+    }
